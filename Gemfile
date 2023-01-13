@@ -40,6 +40,8 @@ group :development do
   # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
+  gem 'spring',                '2.1.0'
+  gem 'spring-watcher-listen', '2.0.1'
 end
 
 group :test do
