@@ -25,6 +25,9 @@ gem 'bootstrap-sass', '3.4.1'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'bcrypt',         '3.1.13'
+gem 'faker',                   '2.20.0'
+gem 'will_paginate',           '3.3.1'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -37,7 +40,7 @@ group :development do
   # Display performance information such as SQL time and flame graphs for each request in your browser.
   # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
   gem 'rack-mini-profiler', '~> 2.0'
-  gem 'listen', '~> 3.3'
+  gem 'listen',             '~> 3.3'
   gem 'spring',                '2.1.0'
   gem 'spring-watcher-listen', '2.0.1'
 end
